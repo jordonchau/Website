@@ -1,0 +1,126 @@
+body{
+    background-color: darkseagreen;
+    font-family:sans-serif;
+
+}
+{
+padding:0;
+margin:0;
+text-decoration:none;
+list-style:none;
+box-sizing:border-box;
+}
+
+nav{
+    background:#0082e6;
+    height: 80px;
+    width:100%
+}
+label.logo{
+color:white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+nav ul{
+float:right;
+    margin-right:20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 50px;
+    margin:0 5px;
+}
+nav ul li a{
+color:white;
+    font-size:17px;
+    padding:7px 13px;
+    border-radius:3px;
+    text-transform: uppercase;
+}
+a.active,a:hover{
+    background:#1b9bff;
+    transition:.5s;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    width:270px;
+    height:400px;
+    margin:10px;
+}
+.card-image{
+    background-color:aqua;
+    height:150px;
+    margin-bottom:15px;
+    background-size:cover;
+}
+.strategy-1{
+    background-image: url(https://gamingcentral.in/wp-content/uploads/2017/02/maxresdefault-8-1024x576.jpg)
+}
+.strategy-3{
+    background-image: url(https://i.pinimg.com/originals/3e/9b/3a/3e9b3a53a629476cf4f01fcf875837bf.png)
+}
+.strategy-2{
+    background-image: url(https://images.idgesg.net/images/article/2018/02/age-of-empires_-definitive-edition-2_18_2018-5_59_14-pm-100750053-orig.jpg)
+}
+.RPG-1 {
+    background-image: url(https://4.bp.blogspot.com/-e-1XrF-dxg8/WWPJesXH7JI/AAAAAAAAqKc/eR7u-CSl7cEHNjB51n7YMf0JPvQ5-z68ACLcBGAs/s1600/RPG+Maker+Fes+2.jpg)
+}
+.RPG-2{
+ background-image:url(https://www.pngitem.com/pimgs/m/512-5121436_animated-emoji-thumbs-up-gif-hd-png-download.png)
+}
+.RPG-3{
+    background-image:url(https://th.bing.com/th/id/R.ad8f65189ee602c77dd5a7e4b9492e36?rik=PYBui1KBFQRPIw&riu=http%3a%2f%2fwww.theaveragegamer.com%2fwp-content%2fuploads%2f2013%2f06%2fThe-Witcher-3-Fiend.jpg&ehk=MiDR2P423w%2bN3xihP2nO8TG%2bh3zo8PHD1BE3LWYZIys%3d&risl=&pid=ImgRaw&r=0)
+}
+.FPS-1{
+    background-image:url(https://th.bing.com/th/id/R.bddf622baa7746768f14467adab2e7f7?rik=RRaX%2fK7MK%2fHXCw&riu=http%3a%2f%2fcdn.windowsreport.com%2fwp-content%2fuploads%2f2017%2f03%2ffirst-person-shooter7-740x480.jpg&ehk=NN%2fKyt6JaXg3SyBL4EOQ3fO1MP20A8UHllWG%2boTHduk%3d&risl=&pid=ImgRaw&r=0)
+}
+.FPS-2{
+    background-image:url(https://image-cdn.essentiallysports.com/wp-content/uploads/20200616045135/Valorant-ss-scaled-1.jpg)
+}
+.about_me{
+    background-image:url(https://th.bing.com/th/id/R.cc47e221b81e10e202f260693c7199e2?rik=MFHQLugBxk6k3Q&riu=http%3a%2f%2f1.bp.blogspot.com%2f-IeuuJ8GCKWQ%2fTvYypiPE-uI%2fAAAAAAAAAD4%2fCt9VdoiKH70%2fs1600%2fsmiley%2bface-face%2bsmile-free-Smiley%2bFace.png&ehk=%2bDPpFU710MLF8lgmiyXheFMSOBz4akbedCOkDXf6rrk%3d&risl=&pid=ImgRaw&r=0)
+}
+.contact-box{
+    width:500px;
+    background-color: #fff;
+    box-shadow:0 0 20px 0 #999;
+    top:70%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    position:absolute;
+
+}
+form{
+    margin:35px;
+}
+.input-field{
+    width:400px;
+    height:40px;
+    margin-top:20px;
+    padding-left:10px;
+    padding-right:10px;
+    border: 1px solid #777;
+    border-radius:14px;
+    outline:none;
+
+}
+.textarea-field{
+    height:150px;
+    padding-top:10px;
+}
+.btn{
+    border-radius:20px;
+    color:#fff;
+    margin-top:18px;
+    padding:10px;
+    background-color:#47c35a;
+    font-size:12px;
+    border:none;
+    cursor:pointer;
+}
+/*DEVELOPER: Jordon Chau, IS117-101, Fall, 2022 */
